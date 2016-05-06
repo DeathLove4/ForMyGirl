@@ -2,4 +2,7 @@
     <string name="app_name">TheGirl</string>
     <string name="My">The</string>
     <string name="Girl">Girl</string>
+    <string name="till">till now</string>
+    <string name="Photos">Photos</string>
+    <string name="Records">Records</string>
 </resources>
