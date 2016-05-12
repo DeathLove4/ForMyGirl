@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp">
+
+        <TextView
+            android:id="@+id/AxisChildItemTime_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="2016-05-06 45:45:45"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/AxisChildItemKind_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:text="晚安"
+            android:textColor="@color/GoodNightColor"
+            android:textSize="20dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/AxisChildItemContent_tv_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/AxisChildItemTime_tv"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/AxisChildItemKind_tv"
+            android:textColor="@color/ChildItemTextColor"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -5,4 +5,8 @@
     <color name="colorAccent">#FF4081</color>
     <color name="mainButtom">#BFEFFF</color>
     <color name="photoBackground">#636363</color>
+    <color name="GroupItemTextColor">#666666</color>
+    <color name="ChildItemTextColor">#999999</color>
+    <color name="GoodNightColor">#87cefa</color>
+    <color name="PromissColor">#cd0000</color>
 </resources>
