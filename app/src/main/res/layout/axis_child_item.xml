@@ -23,7 +23,6 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="10dp"
-            android:text="晚安"
             android:textColor="@color/GoodNightColor"
             android:textSize="20dp"
             android:visibility="gone" />

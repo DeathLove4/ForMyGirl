@@ -368,7 +368,342 @@ public class ToApril30th {
         SingleModel singleModel0418_16 = new SingleModel("2016-4-18 23:22", false, "还是那句话，情商低！所以我不敢保证之后还能干出点什么，但是我肯定没想着去伤害你！你以后也不要像今天这样了，真的不好，自己气的饭都没吃！！！哪里让你不开心了，真的要马上就告诉我，千万别憋着，我真是最怕这样了，不沟通，会出大事的！", new int[]{R.mipmap.pic86});
         singleModelList0418.add(singleModel0418_16);
 
+        WholeDayModel wholeDayModel0418 = new WholeDayModel("2016-4-18", singleModelList0418, true, "2016-4-18 23:50", "D：晚安\n" +
+                "\t\t L：晚安", R.mipmap.pic87);
+        list.add(wholeDayModel0418);
 
+        //2016.04.19
+        List<SingleModel> singleModelList0419 = new ArrayList<>();
+
+        SingleModel singleModel0419_01 = new SingleModel("2016-4-19 11:39", false, "'Do you know what the Baby’s Breath symbolize？ It means ready to stay in the background。'你知道满天星的花语是什么吗？就是甘愿做配角。", new int[]{R.mipmap.pic88});
+        singleModelList0419.add(singleModel0419_01);
+
+        SingleModel singleModel0419_02 = new SingleModel("2016-4-19 12:17", false, "姑娘，你怎么会是不值得送花的人呢？嗯~真的是笨！", new int[]{R.mipmap.pic89});
+        singleModelList0419.add(singleModel0419_02);
+
+        SingleModel singleModel0419_03 = new SingleModel("2016-4-19 13:00", true, "再次答应姑娘，要带她去吃好吃的呢！！！", new int[]{R.mipmap.pic90});
+        singleModelList0419.add(singleModel0419_03);
+
+        SingleModel singleModel0419_04 = new SingleModel("2016-4-19 14:33", true, "虽然这个时候没有明确说要带姑娘去西藏，但是说了姑娘说了有兴趣一起去一趟青藏高原，青藏铁路的重点就是拉萨，要带姑娘去！！！", new int[]{R.mipmap.pic91});
+        singleModelList0419.add(singleModel0419_04);
+
+        SingleModel singleModel0419_05 = new SingleModel("2016-4-19 14:41", true, "姑娘说她想去海边呢，这么简单的要求，如何不去满足呢。。。", new int[]{R.mipmap.pic92});
+        singleModelList0419.add(singleModel0419_05);
+
+        SingleModel singleModel0419_06 = new SingleModel("2016-4-19 15:02", false, "姑娘，我的号码已经给你了，有没有记住呢。。。有事，是真的可以给我打电话，真的，一定会有用的！！！我即便是不管自己，也不可能不管你的呀！", new int[]{R.mipmap.pic93});
+        singleModelList0419.add(singleModel0419_06);
+
+        SingleModel singleModel0419_07 = new SingleModel("2016-4-19 18:53", false, "唉，姑娘，看到你吃的那些菜，唉。。。真的不像是出差呢，吃的真差，所以， 是真的真的很心疼！！！", new int[]{R.mipmap.pic94,R.mipmap.pic95});
+        singleModelList0419.add(singleModel0419_07);
+
+        SingleModel singleModel0419_08 = new SingleModel("2016-4-19 21:12", false, "把聊天记录从旧手机导入到新手机，不看不知道，一看，到这一刻，竟然已经有7980条记录了，真的真的，好可怕的数字！！！", new int[]{R.mipmap.pic96});
+        singleModelList0419.add(singleModel0419_08);
+
+        SingleModel singleModel0419_09 = new SingleModel("2016-4-19 21:20", false, "哈，我数了下，到这句“总要有点作用”刚刚好是第八千条记录呢！！！", new int[]{R.mipmap.pic97});
+        singleModelList0419.add(singleModel0419_09);
+
+        SingleModel singleModel0419_10 = new SingleModel("2016-4-19 21:39", false, "一开始，或许是因为没有删记录的习惯吧，有时候通话列表里面会有很多记录没有删除，很多甚至半年前的记录都还在呢。。。但是，现在，我会把这份记录好好保存，每一句话都不会删掉！", new int[]{R.mipmap.pic98});
+        singleModelList0419.add(singleModel0419_10);
+
+        SingleModel singleModel0419_11 = new SingleModel("2016-4-19 21:39", true, "姑娘，我又答应给你找一张明信片！但是，请抱歉，直到现在，我都不知道那张明信片在哪儿。我也不知道应该找一张怎样的明信片才能算是特别的！但是请放心，我会去找的，总有一天会给你的！", new int[]{R.mipmap.pic99});
+        singleModelList0419.add(singleModel0419_11);
+
+        SingleModel singleModel0419_12 = new SingleModel("2016-4-19 21:57", false, "哈，原来不知不觉中，已经给了你这么多承诺了吗？你最看重的肉，哈哈；青藏高原；海边；明信片；篮球。。。。。。不管说了什么，至少，我说过的，肯定是我可以做到的，肯定是可以带你一起去实现的！要相信我姑娘！", new int[]{R.mipmap.pic100,R.mipmap.pic101});
+        singleModelList0419.add(singleModel0419_12);
+
+        SingleModel singleModel0419_13 = new SingleModel("2016-4-19 22:01", false, "签字还是手印都可以，因为从来没想过骗你，都是真的想带你去做到啊！", new int[]{R.mipmap.pic102});
+        singleModelList0419.add(singleModel0419_13);
+
+        SingleModel singleModel0419_14 = new SingleModel("2016-4-19 22:01", false, "姑娘，其实你知道吗？遇见你，才是真正的惊喜呢！我从不觉得跟你认识晚了，即使现在还没有机会见面，但是，我依旧很憧憬以后！ ", new int[]{R.mipmap.pic103,R.mipmap.pic104});
+        singleModelList0419.add(singleModel0419_14);
+
+        SingleModel singleModel0419_15 = new SingleModel("2016-4-19 22:17", false, "不是我懂你，我还不算懂你吧！只是，姑娘，很多时候，你并不擅长掩饰自己的情绪，所以暴露了出来，我就知道你并不开心！当然，我希望自己可以多懂你一点！ ", new int[]{R.mipmap.pic105});
+        singleModelList0419.add(singleModel0419_15);
+
+        SingleModel singleModel0419_16 = new SingleModel("2016-4-19 22:21", false, "因为当我我自认为很懂你的时候，其实很多时候是不懂的，因为女孩子都有一个共同点，都希望有人可以懂她，所以很多时候，她不会把心里话讲出来，哪怕一点点都不愿意说出来，想让对方去理解，去懂她！这个时候就出问题了啊，即使我很努力了，可是又怎么可能去完全懂得你每一刻的想法呢？所以啊，我怕！ ", new int[]{R.mipmap.pic106});
+        singleModelList0419.add(singleModel0419_16);
+
+        SingleModel singleModel0419_17 = new SingleModel("2016-4-19 22:29", false, "我从来不需要你去做出改变，我需要的，仅仅是你在不开心的时候，稍微告诉我一点，哪怕是一点点，让我可以知道你不开心，你受委屈了就够了！我肯定会做出改变，为你而变！ ", new int[]{R.mipmap.pic107});
+        singleModelList0419.add(singleModel0419_17);
+
+        SingleModel singleModel0419_18 = new SingleModel("2016-4-19 22:57", false, "不管什么原因你暂时不愿意把过去或者现在的照片给我看，但是我肯定是会等的，等到你愿意的那一天！", new int[]{R.mipmap.pic108});
+        singleModelList0419.add(singleModel0419_18);
+
+        WholeDayModel wholeDayModel0419 = new WholeDayModel("2016-4-19", singleModelList0419, true, "2016-4-19 23:12", "L：晚安~\n" +
+                "\t\t D：晚安", R.mipmap.pic109);
+        list.add(wholeDayModel0419);
+
+        //2016.04.20
+        List<SingleModel> singleModelList0420 = new ArrayList<>();
+
+        SingleModel singleModel0420_01 = new SingleModel("2016-4-20 09:21", false, "好心疼，跟领导出去，什么都吃不到，好不容易吃个冰激凌竟然还用“求”，无奈。。。", new int[]{R.mipmap.pic110});
+        singleModelList0420.add(singleModel0420_01);
+
+        SingleModel singleModel0420_02 = new SingleModel("2016-4-20 18:31", false, "你说你只有一把伞的时候，就打算给你买伞了，只希望能降低一点你被雨淋的概率。", new int[]{R.mipmap.pic111});
+        singleModelList0420.add(singleModel0420_02);
+
+        SingleModel singleModel0420_03 = new SingleModel("2016-4-20 18:55", false, "有话题的聊天，是说不了的多久的，因为无论什么话题，都会有终结的时候。但是聊到不需要话题的时候，就升一个层次了！", new int[]{R.mipmap.pic112});
+        singleModelList0420.add(singleModel0420_03);
+
+        SingleModel singleModel0420_04 = new SingleModel("2016-4-20 20:09", true, "哈，姑娘，送给你的第一束花，一定要从这里面拿钱去买！", new int[]{R.mipmap.pic113,R.mipmap.pic114});
+        singleModelList0420.add(singleModel0420_04);
+
+        SingleModel singleModel0420_05 = new SingleModel("2016-4-20 20:27", false, "即使每张钱的编号都是独一无二的，可是，钱还是有很多很多，而姑娘你，真的真的只有一个！", new int[]{R.mipmap.pic115});
+        singleModelList0420.add(singleModel0420_05);
+
+        SingleModel singleModel0420_06 = new SingleModel("2016-4-20 20:33", false, "我只是想要个号码和地址啊，而且真的只是想给姑娘买点吃的，然后把买来的用的东西给你邮寄过去，没想过其他的，干嘛不给呢。。。唉。。。", new int[]{R.mipmap.pic116});
+        singleModelList0420.add(singleModel0420_06);
+
+        SingleModel singleModel0420_07 = new SingleModel("2016-4-20 20:48", false, "姑娘，真的真的没有想过把你感动，因为我从来不希望用感动去换取什么，感动换取的只能是感恩，我从来不需要！", new int[]{R.mipmap.pic117});
+        singleModelList0420.add(singleModel0420_07);
+
+        SingleModel singleModel0420_08 = new SingleModel("2016-4-20 21:00", false, "姑娘，你自己说的呀，要记得，你还有东西放在杭州，我替你保管着呢，要记住，要记得来拿！尽快来拿！！！", new int[]{R.mipmap.pic118});
+        singleModelList0420.add(singleModel0420_08);
+
+        SingleModel singleModel0420_09 = new SingleModel("2016-4-20 21:06", false, "哈，从这个时候开始，就意识到头发很重要吗？嗯，没错的，我是真的真的很在乎对象的头发，不知道为什么，就喜欢一头披肩长发，顺直披在肩膀上面的样子，真的很喜欢！  ", new int[]{R.mipmap.pic119});
+        singleModelList0420.add(singleModel0420_09);
+
+        SingleModel singleModel0420_10 = new SingleModel("2016-4-20 22:06", false, "不是不愿意对姑娘许下承诺，其实对你说的那些，真的真的是很简单的东西，我不想欠你太多太多！最不喜欢的事情就是对别人有亏欠，等我把答应你的做掉，才会去许下其他承诺。", new int[]{R.mipmap.pic120});
+        singleModelList0420.add(singleModel0420_10);
+
+        SingleModel singleModel0420_11 = new SingleModel("2016-4-20 22:15", false, "哈，不管姑娘你去哪里，只要我在，都不会让你带伞的，带个人过来，就好了！还有，给你买的东西，不会给任何人，如果你选择不要，那就只能扔了。", new int[]{R.mipmap.pic121});
+        singleModelList0420.add(singleModel0420_11);
+
+        SingleModel singleModel0420_12 = new SingleModel("2016-4-20 22:24", false, "我也想见你，但是，在合适的范围内，往后面稍微延迟一些，也许更好吧！但是姑娘，不要让我等太久，不要太久！！！", new int[]{R.mipmap.pic122});
+        singleModelList0420.add(singleModel0420_12);
+
+        SingleModel singleModel0420_13 = new SingleModel("2016-4-20 22:28", false, "我是真的想你可以早点来杭州啊，带你去玩，带你去吃好吃的呢！笨姑娘，即使你从来没有来过杭州，我肯定回去接你啊，怎么可能会允许把你丢了？？？", new int[]{R.mipmap.pic123});
+        singleModelList0420.add(singleModel0420_13);
+
+        SingleModel singleModel0420_14 = new SingleModel("2016-4-20 22:33", false, "姑娘，“幸福”和“爱”不可以随便说出来，很多时候，一时的感动根本就不可能是这两个字！等以后我真的可以给你做到这些，再说好了~期待那一天！", new int[]{R.mipmap.pic124});
+        singleModelList0420.add(singleModel0420_14);
+
+        SingleModel singleModel0420_15 = new SingleModel("2016-4-20 22:39", false, "如果是在师大遇见你，那么我们之间肯定是什么都不会有的，顶多，我想只能成为普通朋友吧。那个时候，不可能会有其他发展，即使你认识 髑 ，顶多那个时候可以多请你吃几顿饭吧。", new int[]{R.mipmap.pic125});
+        singleModelList0420.add(singleModel0420_15);
+
+        WholeDayModel wholeDayModel0420 = new WholeDayModel("2016-4-20", singleModelList0420, true, "2016-4-20 23:30", "L：晚安\n" +
+                "\t\t D：晚安", R.mipmap.pic126);
+        list.add(wholeDayModel0420);
+
+        //2016.04.21
+        List<SingleModel> singleModelList0421 = new ArrayList<>();
+
+        SingleModel singleModel0421_01 = new SingleModel("2016-4-21 07:45", false, "哈，问我师大哪里有荷花，哪里有樱花，那不是在问菩萨吗？连师大都没有走干净的人，怎么会知道那些东西在哪儿呢？", new int[]{R.mipmap.pic127});
+        singleModelList0421.add(singleModel0421_01);
+
+        SingleModel singleModel0421_02 = new SingleModel("2016-4-21 09:18", false, "姑娘，如果我答应的带你去吃饭，只是简单给你钱，你会去吗？肯定不会！我也不可能那么做，过去来不及参与，未来，要都奉陪！", new int[]{R.mipmap.pic128});
+        singleModelList0421.add(singleModel0421_02);
+
+        SingleModel singleModel0421_03 = new SingleModel("2016-4-21 16:07", false, "请原谅我的私心，我说的换你的工作，是希望把你弄到安庆那边去，因为往那边去可以找到亲戚帮忙。。。不过我也说了，以后，肯定是以你的工作地点为重心，你的稳定，太重要！", new int[]{R.mipmap.pic129});
+        singleModelList0421.add(singleModel0421_03);
+
+        WholeDayModel wholeDayModel0421 = new WholeDayModel("2016-4-21", singleModelList0421, true, "2016-4-22 00:02", "D：晚安\n" +
+                "\t\t L：晚安~", R.mipmap.pic130);
+        list.add(wholeDayModel0421);
+
+        //2016.04.22
+        List<SingleModel> singleModelList0422 = new ArrayList<>();
+
+        SingleModel singleModel0422_01 = new SingleModel("2016-4-22 08:28", false, "哈，傻傻的姑娘，竟然还记得 金雅然 ，还吃醋了吗？那以后就不用她作为照片墙了，换成姑娘的好了！", new int[]{R.mipmap.pic131});
+        singleModelList0422.add(singleModel0422_01);
+
+        SingleModel singleModel0422_02 = new SingleModel("2016-4-22 23:00", false, "死结！因为我不在你身边，所以不管是你下雨被淋，胃口不好饿肚子，乃至牙疼吃不了东西，我都什么都做不了，只能是简单的跟你说一声！我很无奈，很无助！", new int[]{R.mipmap.pic132});
+        singleModelList0422.add(singleModel0422_02);
+
+        WholeDayModel wholeDayModel0422 = new WholeDayModel("2016-4-22", singleModelList0422, true, "2016-4-22 23:42", "D：乖，晚安\n" +
+                "\t\t L：晚安", R.mipmap.pic133);
+        list.add(wholeDayModel0422);
+
+        //2016.04.23
+        List<SingleModel> singleModelList0423 = new ArrayList<>();
+
+        SingleModel singleModel0423_01 = new SingleModel("2016-4-23 08:36", false, "姑娘，真的真的是觉得你太可爱了呢！不是逗，你跟别人是不一样的，怎么可以把用在别人身上的词用给你呢？", new int[]{R.mipmap.pic134});
+        singleModelList0423.add(singleModel0423_01);
+
+        SingleModel singleModel0423_02 = new SingleModel("2016-4-23 10:31", false, "笨蛋姑娘，牙疼一直拖着，直到此时此刻2016-5-4 15:20:06 都没有去处理，拜托，不要让我担心好吗？ 唉。。。死结！！！", new int[]{R.mipmap.pic135});
+        singleModelList0423.add(singleModel0423_02);
+
+        SingleModel singleModel0423_03 = new SingleModel("2016-4-23 15:37", false, "这个时候就开始问你编制的事情了，以为那时候已经开始有想法了吧。。", new int[]{R.mipmap.pic136});
+        singleModelList0423.add(singleModel0423_03);
+
+        SingleModel singleModel0423_04 = new SingleModel("2016-4-23 22:27", false, "我答应过你，不会忘记跟你说晚安，如果真的一声不吭去睡觉，就算是欺骗你了吧！", new int[]{R.mipmap.pic137});
+        singleModelList0423.add(singleModel0423_04);
+
+        WholeDayModel wholeDayModel0423 = new WholeDayModel("2016-4-23", singleModelList0423, true, "2016-4-23 23:49", "D：晚安\n" +
+                "\t\t L：晚安", R.mipmap.pic138);
+        list.add(wholeDayModel0423);
+
+        //2016.04.24
+        List<SingleModel> singleModelList0424 = new ArrayList<>();
+
+        SingleModel singleModel0424_01 = new SingleModel("2016-4-24 10:03", false, "只有在知道你很委屈，很难受的时候，我才会想在师大遇见你，那样，肯定能为你做点什么！", new int[]{R.mipmap.pic139});
+        singleModelList0424.add(singleModel0424_01);
+
+        SingleModel singleModel0424_02 = new SingleModel("2016-4-24 14:03", false, "一个人抽风似的去了西湖，真的真的很想你在身边！", new int[]{R.mipmap.pic140});
+        singleModelList0424.add(singleModel0424_02);
+
+        SingleModel singleModel0424_03 = new SingleModel("2016-4-24 15:48", true, "姑娘，我跟你说真的，从现在开始，我都不会再去西湖玩了！下一次，一定要是带着你，才去，否则，不去！！！", new int[]{R.mipmap.pic141});
+        singleModelList0424.add(singleModel0424_03);
+
+        SingleModel singleModel0424_04 = new SingleModel("2016-4-24 17:09", true, "是想去植物园吗？嗯，好的，记住了，下一次来了，下一次过来了，带你去，就在西湖边上呢！", new int[]{R.mipmap.pic142});
+        singleModelList0424.add(singleModel0424_04);
+
+        SingleModel singleModel0424_05 = new SingleModel("2016-4-24 22:17", false, "跟你认识一个月，给你发了张长图，是我写的好多东西。只是想把自己想的跟你说一声！从没有说你不适合之类的，相反，对于我来说，你会的已经足够了，遇见你不易，我会珍惜！", new int[]{R.mipmap.pic143,R.mipmap.pic144});
+        singleModelList0424.add(singleModel0424_05);
+
+        SingleModel singleModel0424_06 = new SingleModel("2016-4-24 22:34", false, "本来是不想把这个拿出来说的，但是，真的真的好羡慕 他 ！ 但是，现在不会了，因为我一定会比他收获的更多！", new int[]{R.mipmap.pic145});
+        singleModelList0424.add(singleModel0424_06);
+
+        SingleModel singleModel0424_07 = new SingleModel("2016-4-24 22:40", true, "姑娘，说真的，矛盾，或许甚至争执以后都会遇到，这个我没办法跟你保证永远不发生，但是当你发现有什么你不满意的时候，一定记得告诉我，我会为了你改，这个肯定是可以做到的！！！", new int[]{R.mipmap.pic146});
+        singleModelList0424.add(singleModel0424_07);
+
+        SingleModel singleModel0424_08 = new SingleModel("2016-4-24 22:48", false, "我都一个人这么久了，还会在乎这些吗？我要的，是可以陪我一辈子走下去的人，一生只要一个就好了，所以，你可以慢慢去考虑！！！", new int[]{R.mipmap.pic147,R.mipmap.pic148});
+        singleModelList0424.add(singleModel0424_08);
+
+        SingleModel singleModel0424_09 = new SingleModel("2016-4-24 23:04", false, "姑娘，先不要去在意其他的好吗？我也不去想太多，我只想就这么简简单单的随心走下去，需要考虑的东西，时间到了，再去想那么多！", new int[]{R.mipmap.pic149});
+        singleModelList0424.add(singleModel0424_09);
+
+        WholeDayModel wholeDayModel0424 = new WholeDayModel("2016-4-24", singleModelList0424, true, "2016-4-24 23:58", "D：晚安\n" +
+                "\t\t L：晚安", R.mipmap.pic150);
+        list.add(wholeDayModel0424);
+
+        //2016.04.25
+        List<SingleModel> singleModelList0425 = new ArrayList<>();
+
+        SingleModel singleModel0425_01 = new SingleModel("2016-4-25 21:00", false, "第一次跟你提到Darry Ring，“一生真爱唯一”的Darry Ring，我很早很早就想过，在求婚的时候把那枚世界上独一无二的戒指给我的新娘(没错，虽然是求婚，但是我依旧说成是新娘，因为Darry Ring一辈子只能买一个，所以一定是新娘)戴上，第一次把这个告诉一个女孩儿，是你！", new int[]{R.mipmap.pic151});
+        singleModelList0425.add(singleModel0425_01);
+
+        SingleModel singleModel0425_02 = new SingleModel("2016-4-25 23:05", false, "姑娘，你很好，在乎的或许不是那些明面上的东西，但是对于我来说，有些就东西吧，真的真的是很重要的！Darry Ring，或许很贵，但是，一辈子就只会买一次的啊，再怎么贵都是值得的！所以，我一定会买，并亲手戴在新娘的手指上！", new int[]{R.mipmap.pic152});
+        singleModelList0425.add(singleModel0425_02);
+
+        WholeDayModel wholeDayModel0425 = new WholeDayModel("2016-4-25", singleModelList0425, true, "2016-4-25 23:45", "D：晚安\n" +
+                "\t\t L：晚安~\n", R.mipmap.pic153);
+        list.add(wholeDayModel0425);
+
+        //2016.04.26
+        List<SingleModel> singleModelList0426 = new ArrayList<>();
+
+        SingleModel singleModel0426_01 = new SingleModel("2016-4-26 08:51", false, "哈哈，又找到罪证一条，会舔莫斯利安的盒子吗？好期待你是怎么舔的呢。。。", new int[]{R.mipmap.pic154});
+        singleModelList0426.add(singleModel0426_01);
+
+        SingleModel singleModel0426_02 = new SingleModel("2016-4-26 09:51", false, "姑娘，Darry Ring是婚戒，只有我确定那个女孩儿愿意跟我走一辈子的时候，我才会去买那枚世界上独一无无二戒指！还有，我从来没有想过后悔这回事，因为只要开始，就是想着一辈子的！", new int[]{R.mipmap.pic155});
+        singleModelList0426.add(singleModel0426_02);
+
+        SingleModel singleModel0426_03 = new SingleModel("2016-4-26 22:55", false, "姑娘，好想能早一点吃到你妈妈做的饺子！明白不？！", new int[]{R.mipmap.pic156});
+        singleModelList0426.add(singleModel0426_03);
+
+        SingleModel singleModel0426_04 = new SingleModel("2016-4-26 23:03", false, "宁缺毋滥！是的，遇到滥的才会选择宁愿去缺着，可是如果真的遇到一个合适的呢？我也不知道该怎么说，我希望你缺着，希望你在开始之前就扼杀所有发展下去的机会！但是，如果真的遇到合适的，可以去尝试吧。我没有这么伟大，真的，我很自私，我自然是不想你那样，只是，站在我的角度，终究是希望你可以幸福的！", new int[]{R.mipmap.pic157});
+        singleModelList0426.add(singleModel0426_04);
+
+        SingleModel singleModel0426_05 = new SingleModel("2016-4-26 23:23", false, "我是有想过以后的，因为你是老师，所以以后空余的时间应该会多一些，就有时间去多放在家庭上面。不管以后你的编制考到了哪里，肯定是以你工作的地点为中心的，你在哪儿，就去哪儿！你肯定不会离家太远，所以不管是我的安庆，还是在你的六安，这个对于我来说都是完全可以接受的！", new int[]{R.mipmap.pic158});
+        singleModelList0426.add(singleModel0426_05);
+
+        SingleModel singleModel0426_06 = new SingleModel("2016-4-26 23:40", false, "关于戒指，我只知道，因为很早之前，当我知道Darry Ring之后，就已经是认定它了，不管以后怎样，我都会给我的新娘买一个！所以其他的戒指品牌，不管是贵还是便宜，我都已经忽略了，因为已经没有必要去关注了！当然，关注再多，也没用，因为我这辈子真的真的只是想买一枚 Darry Ring 而已，不想买第二枚戒指！", new int[]{R.mipmap.pic159});
+        singleModelList0426.add(singleModel0426_06);
+
+        WholeDayModel wholeDayModel0426 = new WholeDayModel("2016-4-26", singleModelList0426, true, "2016-4-26 23:57", "L：晚安~\n" +
+                "\t\t D：晚安", R.mipmap.pic160);
+        list.add(wholeDayModel0426);
+
+        //2016.04.27
+        List<SingleModel> singleModelList0427 = new ArrayList<>();
+
+        SingleModel singleModel0427_01 = new SingleModel("2016-4-27 09:08", false, "哈，好在我每天晚上都会洗脸刷牙，而且感觉这点做的会比你还好~所以，不怕你来管我，想怎么管，尽快吧！ 不过，说真的，真的挺感谢你，这几天晚上回来看到叠好的被子，真的是心情都会好不少呢", new int[]{R.mipmap.pic161,R.mipmap.pic162});
+        singleModelList0427.add(singleModel0427_01);
+
+        SingleModel singleModel0427_02 = new SingleModel("2016-4-27 09:14", true, "姑娘，我可以答应你，以后，你不想做的，你不愿意做的，我都可以去学，你不做的，我去做！", new int[]{R.mipmap.pic163});
+        singleModelList0427.add(singleModel0427_02);
+
+        SingleModel singleModel0427_03 = new SingleModel("2016-4-27 15:56", true, "姑娘，我不敢保证以后和你之间会不会有矛盾，我相信总会出现那么个时候的。但是，不管对错，我肯定先道歉！", new int[]{R.mipmap.pic164});
+        singleModelList0427.add(singleModel0427_03);
+
+        SingleModel singleModel0427_04 = new SingleModel("2016-4-27 18:56", false, "我只是有想过，以后自己的孩子，男的一定要去学钢琴，女的一定要去学小提琴。哈，现在又多了个书法~", new int[]{R.mipmap.pic165});
+        singleModelList0427.add(singleModel0427_04);
+
+        SingleModel singleModel0427_05 = new SingleModel("2016-4-27 21:54", true, "傻傻的姑娘，自到那边去，都没有吃过好东西吧，即便是地沟油都没有吃吧，唉。。。我心疼，很心疼！所以，一定要带你去吃好吃的！", new int[]{R.mipmap.pic166});
+        singleModelList0427.add(singleModel0427_05);
+
+        WholeDayModel wholeDayModel0427 = new WholeDayModel("2016-4-27", singleModelList0427, true, "2016-4-26 23:57", "L：晚安~\n" +
+                "\t\t D：晚安", R.mipmap.pic167);
+        list.add(wholeDayModel0427);
+
+        //2016.04.28
+        List<SingleModel> singleModelList0428 = new ArrayList<>();
+
+        SingleModel singleModel0428_01 = new SingleModel("2016-4-28 11:23", false, "姑娘，我是真的不喜欢女孩子化妆，真的真的，一直以来都是的！我就喜欢看最真实的样子，我说过了，最极致的简单，就是最极致的完美！我以后可以花钱给你买很多保养品，但是不想买化妆品。但是不是一点都不买的，因为适当的妆容是对别人的尊重，这个道理我还是懂的~ ", new int[]{R.mipmap.pic168});
+        singleModelList0428.add(singleModel0428_01);
+
+        SingleModel singleModel0428_02 = new SingleModel("2016-4-28 22:22", true, "可不可以不讨论这些。。。我给你个权利，如果有以后，家务你来安排！ ", new int[]{R.mipmap.pic169});
+        singleModelList0428.add(singleModel0428_02);
+
+        SingleModel singleModel0428_03 = new SingleModel("2016-4-28 22:44", false, "“我不想骗你什么，更不可能去对你浮夸什么，我觉得我说的，都是能做到的，怎么按都没事 ”我对你说的每一句话，我都可以去按手印，没有骗你！答应你的，会做到！  ", new int[]{R.mipmap.pic170});
+        singleModelList0428.add(singleModel0428_03);
+
+        SingleModel singleModel0428_04 = new SingleModel("2016-4-28 22:44", true, "姑娘，你太重要，重要性超过一切！所以，无论什么时候，你都不会找不到我！我真的有事，我会提前告诉你，不会让你找不到！！！", new int[]{R.mipmap.pic171});
+        singleModelList0428.add(singleModel0428_04);
+
+        WholeDayModel wholeDayModel0428 = new WholeDayModel("2016-4-28", singleModelList0428, true, "2016-4-28 23:56", "L：晚安~我先说~\n" +
+                "\t\t D：姑娘，有你真好！！！晚安", R.mipmap.pic172);
+        list.add(wholeDayModel0428);
+
+        //2016.04.29
+        List<SingleModel> singleModelList0429 = new ArrayList<>();
+
+        SingleModel singleModel0429_01 = new SingleModel("2016-4-29 07:00", false, "姑娘，真的，除了你，我想不起来就跟谁说过早安的，虽然跟你也没说过多少，但是已经是这辈子说过最多的人了！ ", new int[]{R.mipmap.pic173});
+        singleModelList0429.add(singleModel0429_01);
+
+        SingleModel singleModel0429_02 = new SingleModel("2016-4-29 10:05", false, "养成一个习惯需要23天，我们认识已经超过这个时间了。我也不知道从什么时候开始，你变得这么重要！其实无论你对我有没有产生依赖，至少，我已经对你有依赖了！  ", new int[]{R.mipmap.pic174,R.mipmap.pic175});
+        singleModelList0429.add(singleModel0429_02);
+
+        SingleModel singleModel0429_03 = new SingleModel("2016-4-29 10:17", false, "姑娘，你不会的，我去学，学好了我帮你弄！！  ", new int[]{R.mipmap.pic176,R.mipmap.pic177});
+        singleModelList0429.add(singleModel0429_03);
+
+        SingleModel singleModel0429_04 = new SingleModel("2016-4-29 10:28", false, "其实，在这个社会上，很多很多人看中都是物质生活，我不敢保证我能给对方什么样的物质生活，只能说我肯定会尽力去带给她最好的！两个人在一起，最重要的绝不是物质上有多么好，而且夫妻两个人的和睦相处最重要。责任，我从来不认为两个人在一起是靠责任去捆绑的，这样在一起会不会太累了？当谈及结婚的那一刻，双方都将承担起应有的责任！恋爱阶段只会是简单的喜欢，这是一种感情而已，很多人说爱是付出，但是我不这么觉得，恋爱喜欢的阶段才是付出，去把对方争取过来！到了 爱 这个阶段啊，那就是承担了！爱 这个字眼真的是太过于沉重，沉重到我不再敢去说出口！所以，当我为心爱的人戴上 Darry Ring的那一刻，我再去说吧。 ", new int[]{R.mipmap.pic178,R.mipmap.pic179,R.mipmap.pic180,R.mipmap.pic181,R.mipmap.pic182,R.mipmap.pic183,R.mipmap.pic184,R.mipmap.pic185});
+        singleModelList0429.add(singleModel0429_04);
+
+        SingleModel singleModel0429_05 = new SingleModel("2016-4-29 10:49", false, "前任也曾经是对的人吗？不不不，也是错的，只有陪自己走过一生的人，才能称之为对的人！ ", new int[]{R.mipmap.pic186});
+        singleModelList0429.add(singleModel0429_05);
+
+        SingleModel singleModel0429_06 = new SingleModel("2016-4-29 12:31", true, "洗碗吗？嗯，可以的姑娘，以后家里的碗筷都由我来洗吧，这点保证可以做到！我也不愿意让你的手去沾染那些洗洁精之类的东西呢~ ", new int[]{R.mipmap.pic187});
+        singleModelList0429.add(singleModel0429_06);
+
+        SingleModel singleModel0429_07 = new SingleModel("2016-4-29 14:46", false, "虽然那会儿肚子还是饿的，而且心情也不大好，但是看到你的这句话，“就像你要我带伞一样，我也不希望你饿”，姑娘，真的挺开心呢！！！", new int[]{R.mipmap.pic188});
+        singleModelList0429.add(singleModel0429_07);
+
+        SingleModel singleModel0429_08 = new SingleModel("2016-4-29 18:11", false, "哈，笨姑娘，你要真的来了杭州，我激动都来不及，肯定会早早地就到火车站去接你，又怎么可能让你丢了呢！", new int[]{R.mipmap.pic189});
+        singleModelList0429.add(singleModel0429_08);
+
+        SingleModel singleModel0429_09 = new SingleModel("2016-4-29 21:44", false, "姑娘，真的是很小的事情，但是，看到你的回复之后，真的是高兴了好久好久呢！好不容易的，你竟然给我回复了个 “1” ，真的不容易！", new int[]{R.mipmap.pic190});
+        singleModelList0429.add(singleModel0429_09);
+
+        WholeDayModel wholeDayModel0429 = new WholeDayModel("2016-4-29", singleModelList0429, true, "2016-4-29 23:23", "D：乖，晚安\n" +
+                "\t\t L：晚安~早点睡", R.mipmap.pic191);
+        list.add(wholeDayModel0429);
+
+        //2016.04.30
+        List<SingleModel> singleModelList0430 = new ArrayList<>();
+
+        SingleModel singleModel0430_01 = new SingleModel("2016-4-30 07:25", true, "我不敢保证以后会不会跟你有争执，但是能保证的只有争执后我先冷静下来，无论对错，我先道歉", new int[]{R.mipmap.pic192});
+        singleModelList0430.add(singleModel0430_01);
+
+        SingleModel singleModel0430_02 = new SingleModel("2016-4-30 20:36", false, "姑娘，虽然我还没想过结婚这件事，但是真的真的是很羡慕你哥呢，还有我之前的那些同学，可以把自己喜欢的人带回家，那得多开心啊！！！", new int[]{R.mipmap.pic193});
+        singleModelList0430.add(singleModel0430_02);
+
+        SingleModel singleModel0430_03 = new SingleModel("2016-4-30 22:46", true, "姑娘，在你之前，我是真的很想很想找一个能做饭的女朋友，我可以做其他任何事情，除了掌勺做菜。。。但是，怕你以后不做我就饿死了，所以，我妥协了，以后我肯定努力认真学习做菜！！！", new int[]{R.mipmap.pic194});
+        singleModelList0430.add(singleModel0430_03);
+
+        SingleModel singleModel0430_04 = new SingleModel("2016-5-1 00:10", true, "每天晚上睡前跟你说晚安！", new int[]{R.mipmap.pic195});
+        singleModelList0430.add(singleModel0430_04);
+
+        SingleModel singleModel0430_05 = new SingleModel("2016-5-1 00:36", false, "说真的，没有微信，我们真的不可能相遇吧，这种概率，太小太小！", new int[]{R.mipmap.pic196});
+        singleModelList0430.add(singleModel0430_05);
+
+        SingleModel singleModel0430_06 = new SingleModel("2016-5-1 00:38", false, "说实话，姑娘，我加你的原因很单纯，就是简单的因为你认识这个 髑 字，太难得，所以我想认识你！ 至于后面发生的一切，缘分吧，只能用这个词来解释了。", new int[]{R.mipmap.pic197});
+        singleModelList0430.add(singleModel0430_06);
+
+        WholeDayModel wholeDayModel0430 = new WholeDayModel("2016-4-30", singleModelList0430, true, "2016-5-1 00:54", "D：晚安\n" +
+                "\t\t L：晚安~\n", R.mipmap.pic198);
+        list.add(wholeDayModel0430);
         return list;
     }
 
