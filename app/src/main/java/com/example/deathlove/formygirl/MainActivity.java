@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(photoIntent);
                 break;
             case R.id.main_btn_records:
+                Intent timeAxisIntent = new Intent(MainActivity.this, TimeAxisActivity.class);
+                startActivity(timeAxisIntent);
                 break;
         }
     }

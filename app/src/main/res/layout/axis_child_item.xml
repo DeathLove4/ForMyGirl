@@ -14,6 +14,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:text="2016-05-06 45:45:45"
+            android:textColor="@color/TimeColor"
             android:textSize="20dp" />
 
         <TextView
@@ -25,7 +26,8 @@
             android:layout_marginTop="10dp"
             android:textColor="@color/GoodNightColor"
             android:textSize="20dp"
-            android:visibility="gone" />
+            android:visibility="gone"
+            />
 
         <TextView
             android:id="@+id/AxisChildItemContent_tv_tv"
@@ -37,7 +39,7 @@
             android:layout_marginRight="5dp"
             android:layout_toRightOf="@+id/AxisChildItemKind_tv"
             android:textColor="@color/ChildItemTextColor"
-            android:textSize="20dp" />
+            android:textSize="18dp" />
     </RelativeLayout>
 
 

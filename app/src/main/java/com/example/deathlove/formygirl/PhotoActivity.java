@@ -93,16 +93,16 @@ public class PhotoActivity extends AppCompatActivity implements ViewPager.OnPage
             list.add(iv);
 
             // 往线性布局中添加小圆点
-            View view = new View(this);
+            //View view = new View(this);
             // 布局参数:指定宽,高
-            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(40, 40);
-            view.setLayoutParams(params);
-            params.leftMargin = 2;
-            view.setBackgroundResource(R.mipmap.dot_normal);
-            Photo_pointLayout.addView(view);
+            //LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(40, 40);
+            //view.setLayoutParams(params);
+           // params.leftMargin = 2;
+            //view.setBackgroundResource(R.mipmap.dot_normal);
+            //Photo_pointLayout.addView(view);
         }
 
-        Photo_pointLayout.getChildAt(0).setBackgroundResource(R.mipmap.dot_enable);
+        //Photo_pointLayout.getChildAt(0).setBackgroundResource(R.mipmap.dot_enable);
         adapter = new PhotoViewPagerAdapter(list);
         viewPager.setAdapter(adapter);
         viewPager.setPageTransformer(true, new ScaleInOutTransformer());
@@ -116,9 +116,9 @@ public class PhotoActivity extends AppCompatActivity implements ViewPager.OnPage
 
     @Override
     public void onPageSelected(int position) {
-        Photo_pointLayout.getChildAt(position % list.size()).setBackgroundResource(R.mipmap.dot_enable);
-        Photo_pointLayout.getChildAt(prePosition % list.size()).setBackgroundResource(R.mipmap.dot_normal);
-        prePosition = position;
+        //Photo_pointLayout.getChildAt(position % list.size()).setBackgroundResource(R.mipmap.dot_enable);
+        //Photo_pointLayout.getChildAt(prePosition % list.size()).setBackgroundResource(R.mipmap.dot_normal);
+       // prePosition = position;
     }
 
     @Override
