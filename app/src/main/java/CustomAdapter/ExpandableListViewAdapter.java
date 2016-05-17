@@ -34,16 +34,16 @@ public class ExpandableListViewAdapter extends BaseExpandableListAdapter {
 
     @Override
     public int getChildrenCount(int groupPosition) {
-        if (list.get(groupPosition) != null) {
-            if (list.get(groupPosition).getList().size() == 0) {
-                return 1;
-            } else {
-                return list.get(groupPosition).getList().size();
-            }
-        } else {
-            return 0;
-        }
-        //return list.get(groupPosition) != null ? list.get(groupPosition).getList().size() : 0;
+//        if (list.get(groupPosition) != null) {
+//            if (list.get(groupPosition).getList().size() == 0) {
+//                return 1;
+//            } else {
+//                return list.get(groupPosition).getList().size();
+//            }
+//        } else {
+//            return 0;
+//        }
+        return list.get(groupPosition) != null ? list.get(groupPosition).getList().size() : 0;
     }
 
     @Override
@@ -90,66 +90,38 @@ public class ExpandableListViewAdapter extends BaseExpandableListAdapter {
     @Override
     public View getChildView(int groupPosition, int childPosition, boolean isLastChild, View convertView, ViewGroup parent) {
         WholeDayModel wholeDayModel = list.get(groupPosition);
-        if (wholeDayModel.getList().size() == 0) {
-            ChildViewHolder holder;
-            if (convertView == null) {
-                convertView = LayoutInflater.from(context).inflate(R.layout.axis_child_item, null);
-                holder = new ChildViewHolder();
-                holder.AxisChildItemTime_tv = ((TextView) convertView.findViewById(R.id.AxisChildItemTime_tv));
-                holder.AxisChildItemKind_tv = ((TextView) convertView.findViewById(R.id.AxisChildItemKind_tv));
-                holder.AxisChildItemContent_tv = ((TextView) convertView.findViewById(R.id.AxisChildItemContent_tv_tv));
-                convertView.setTag(holder);
-            } else {
-                holder = ((ChildViewHolder) convertView.getTag());
-                holder.AxisChildItemKind_tv.setVisibility(View.GONE);
-                holder.AxisChildItemTime_tv.setVisibility(View.VISIBLE);
-            }
-            if (wholeDayModel.isGoodnight()) {
-                holder.AxisChildItemTime_tv.setText(wholeDayModel.getGoodnightTime());
-
-                holder.AxisChildItemKind_tv.setVisibility(View.VISIBLE);
-                holder.AxisChildItemKind_tv.setText("晚安");
-                holder.AxisChildItemKind_tv.setTextColor(context.getResources().getColor(R.color.GoodNightColor));
-
-                holder.AxisChildItemContent_tv.setText(wholeDayModel.getGoodnightContent());
-            } else {
-                //holder.AxisChildItemTime_tv.setText("");
-                holder.AxisChildItemTime_tv.setVisibility(View.GONE);
-                holder.AxisChildItemContent_tv.setText(wholeDayModel.getGoodnightContent());
-            }
+        SingleModel model = wholeDayModel.getList().get(childPosition);
+        ChildViewHolder holder;
+        if (convertView == null) {
+            convertView = LayoutInflater.from(context).inflate(R.layout.axis_child_item, null);
+            holder = new ChildViewHolder();
+            holder.AxisChildItemTime_tv = ((TextView) convertView.findViewById(R.id.AxisChildItemTime_tv));
+            holder.AxisChildItemKind_tv = ((TextView) convertView.findViewById(R.id.AxisChildItemKind_tv));
+            holder.AxisChildItemContent_tv = ((TextView) convertView.findViewById(R.id.AxisChildItemContent_tv_tv));
+            convertView.setTag(holder);
         } else {
-            SingleModel model = wholeDayModel.getList().get(childPosition);
-            ChildViewHolder holder;
-            if (convertView == null) {
-                convertView = LayoutInflater.from(context).inflate(R.layout.axis_child_item, null);
-                holder = new ChildViewHolder();
-                holder.AxisChildItemTime_tv = ((TextView) convertView.findViewById(R.id.AxisChildItemTime_tv));
-                holder.AxisChildItemKind_tv = ((TextView) convertView.findViewById(R.id.AxisChildItemKind_tv));
-                holder.AxisChildItemContent_tv = ((TextView) convertView.findViewById(R.id.AxisChildItemContent_tv_tv));
-                convertView.setTag(holder);
-            } else {
-                holder = ((ChildViewHolder) convertView.getTag());
-                holder.AxisChildItemKind_tv.setVisibility(View.GONE);
-                holder.AxisChildItemTime_tv.setVisibility(View.VISIBLE);
-            }
-            holder.AxisChildItemTime_tv.setText(model.getHappenedTime());
-
-            if ((childPosition == wholeDayModel.getList().size() - 1) && wholeDayModel.isGoodnight()) {
-                holder.AxisChildItemKind_tv.setVisibility(View.VISIBLE);
-                holder.AxisChildItemKind_tv.setText("晚安");
-                holder.AxisChildItemKind_tv.setTextColor(context.getResources().getColor(R.color.GoodNightColor));
-
-                holder.AxisChildItemContent_tv.setText(wholeDayModel.getGoodnightContent());
-            } else if (model.isPromise()) {
-                holder.AxisChildItemKind_tv.setVisibility(View.VISIBLE);
-                holder.AxisChildItemKind_tv.setText("承诺");
-                holder.AxisChildItemKind_tv.setTextColor(context.getResources().getColor(R.color.PromissColor));
-
-                holder.AxisChildItemContent_tv.setText(model.getContent());
-            } else {
-                holder.AxisChildItemContent_tv.setText(model.getContent());
-            }
+            holder = ((ChildViewHolder) convertView.getTag());
+            holder.AxisChildItemKind_tv.setVisibility(View.GONE);
+            holder.AxisChildItemTime_tv.setVisibility(View.VISIBLE);
         }
+        if (model.isGoodNight()) {
+            holder.AxisChildItemKind_tv.setVisibility(View.VISIBLE);
+            holder.AxisChildItemKind_tv.setText("晚安");
+            holder.AxisChildItemKind_tv.setTextColor(context.getResources().getColor(R.color.GoodNightColor));
+        } else if (model.isPromise()) {
+            holder.AxisChildItemKind_tv.setVisibility(View.VISIBLE);
+            holder.AxisChildItemKind_tv.setText("承诺");
+            holder.AxisChildItemKind_tv.setTextColor(context.getResources().getColor(R.color.PromissColor));
+        }
+
+        if (model.getHappenedTime().equals("")) {
+            holder.AxisChildItemTime_tv.setVisibility(View.GONE);
+        } else {
+            holder.AxisChildItemTime_tv.setText(model.getHappenedTime());
+        }
+
+        holder.AxisChildItemContent_tv.setText(model.getContent());
+
         return convertView;
     }
 

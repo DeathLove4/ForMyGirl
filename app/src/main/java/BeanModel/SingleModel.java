@@ -6,12 +6,15 @@ package BeanModel;
  */
 public class SingleModel {
     private String happenedTime;
-    private boolean promise;
+    private boolean isGoodNight;//用于标记是否是晚安
+    private boolean promise; //用于标记是否是承诺
     private String content;
     private int[] picList;
 
-    public SingleModel(String happenedTime, boolean promise, String content, int[] picList) {
+
+    public SingleModel(String happenedTime, boolean isGoodNight, boolean promise, String content, int[] picList) {
         this.happenedTime = happenedTime;
+        this.isGoodNight = isGoodNight;
         this.promise = promise;
         this.content = content;
         this.picList = picList;
@@ -23,6 +26,22 @@ public class SingleModel {
 
     public void setHappenedTime(String happenedTime) {
         this.happenedTime = happenedTime;
+    }
+
+    public boolean isGoodNight() {
+        return isGoodNight;
+    }
+
+    public void setGoodNight(boolean goodNight) {
+        isGoodNight = goodNight;
+    }
+
+    public boolean isPromise() {
+        return promise;
+    }
+
+    public void setPromise(boolean promise) {
+        this.promise = promise;
     }
 
     public String getContent() {
@@ -39,13 +58,5 @@ public class SingleModel {
 
     public void setPicList(int[] picList) {
         this.picList = picList;
-    }
-
-    public boolean isPromise() {
-        return promise;
-    }
-
-    public void setPromise(boolean promise) {
-        this.promise = promise;
     }
 }

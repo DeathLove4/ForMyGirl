@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.ImageView;
@@ -41,13 +42,10 @@ public class TimeAxisActivity extends AppCompatActivity {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
                 //Toast.makeText(getApplicationContext(), "111", Toast.LENGTH_SHORT).show();
-                if (list.get(groupPosition).getList().size() == 0 && list.get(groupPosition).isGoodnight()) {
-                    Bundle bundle = new Bundle();
-                    bundle.putIntArray("PicArray", new int[]{list.get(groupPosition).getGoodnightPic()});
-                    Intent intent = new Intent(TimeAxisActivity.this, TimeAxisPicActivity.class);
-                    intent.putExtras(bundle);
-                    startActivity(intent);
-                } else {
+                //  if (!list.get(groupPosition).isGoodnight()) {
+                boolean noGoodNight = list.get(groupPosition).getList().get(childPosition).getPicList() != null;
+                Log.e("boolean", "----- " + noGoodNight);
+                if (noGoodNight) {
                     Bundle bundle = new Bundle();
                     bundle.putIntArray("PicArray", list.get(groupPosition).getList().get(childPosition).getPicList());
                     Intent intent = new Intent(TimeAxisActivity.this, TimeAxisPicActivity.class);

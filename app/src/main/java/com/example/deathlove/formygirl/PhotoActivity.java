@@ -33,8 +33,7 @@ import ViewPagerTransforms.TabletTransformer;
  * Created by Death丶Love on 2016/5/6.
  */
 public class PhotoActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener {
-    private int[] girlPhotos = new int[]{R.mipmap.girl01, R.mipmap.girl02, R.mipmap.girl03, R.mipmap.girl04, R.mipmap.girl05, R.mipmap.girl06,
-            R.mipmap.girl07, R.mipmap.girl08, R.mipmap.girl09, R.mipmap.girl10, R.mipmap.girl11, R.mipmap.girl12};
+    private int[] girlPhotos = new int[]{R.mipmap.girl01, R.mipmap.girl02, R.mipmap.girl03, R.mipmap.girl08, R.mipmap.girl09, R.mipmap.girl10, R.mipmap.girl11, R.mipmap.girl12, R.mipmap.girl13, R.mipmap.girl20, R.mipmap.girl21};
     private ViewPager viewPager;
     private LinearLayout Photo_pointLayout;
     private PhotoViewPagerAdapter adapter;
@@ -97,7 +96,7 @@ public class PhotoActivity extends AppCompatActivity implements ViewPager.OnPage
             // 布局参数:指定宽,高
             //LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(40, 40);
             //view.setLayoutParams(params);
-           // params.leftMargin = 2;
+            // params.leftMargin = 2;
             //view.setBackgroundResource(R.mipmap.dot_normal);
             //Photo_pointLayout.addView(view);
         }
@@ -118,7 +117,7 @@ public class PhotoActivity extends AppCompatActivity implements ViewPager.OnPage
     public void onPageSelected(int position) {
         //Photo_pointLayout.getChildAt(position % list.size()).setBackgroundResource(R.mipmap.dot_enable);
         //Photo_pointLayout.getChildAt(prePosition % list.size()).setBackgroundResource(R.mipmap.dot_normal);
-       // prePosition = position;
+        // prePosition = position;
     }
 
     @Override
